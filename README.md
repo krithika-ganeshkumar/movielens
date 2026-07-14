@@ -1,3 +1,11 @@
+# MovieLens Recommendation System
+
+This project builds and evaluates a movie recommendation model using the MovieLens dataset, with focus on ratings prediction, model validation, RMSE evaluation, and holdout-set performance.
+
+The work includes exploratory data analysis, preprocessing, train/test splitting, model development, RMSE tracking, and final validation against a holdout dataset. The objective is to build a recommendation model that predicts user movie ratings with RMSE below the target threshold.
+
+This project was completed as part of the HarvardX PH125.9x Data Science Capstone and is included here as evidence of applied data science, recommender-systems analysis, model evaluation, and validation practice.
+
 A movie recommendation system is a tool to suggest movies to users based on the ratings provided by the user. The tool employs various machine learning techniques to process and analyze data including user-provided data. It generates personalized movie recommendations based on user ratings. Based on a user rating, a one-star rating means it is not a good movie whereas a five-star rating means it is a great movie. Based on the ratings by the user, the recommendation system such as one used by Netflix, predicts how many stars a user will give to a movie. The famous Netflix challenge back in 2006, offered $1M USD for the best model to predict user ratings based on previous ratings of the user.
 
 The goal of this project is to create a movie recommendation system using the MovieLens dataset containing 10 million movie ratings and by employing various tools learned throughout the courses in the PH125.x data science series. The MovieLens data and the code to generate the datasets are already provided to begin with. The objective is to determine a model that predicts ratings with a RMSE (Root Mean Square Error) less than 0.86490 versus the actual ratings in the final holdout set. 
